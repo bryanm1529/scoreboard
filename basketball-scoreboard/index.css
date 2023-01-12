@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-name{
+    font-size: 32px;
+    font-weight: bold;
+    width: 150px;
+    font-family: ubuntu;
+}
+
+
+#team-section{
+    background-color: #fefae0f5;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px auto 0px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#home-style, #guest-style{
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 15px;
+    height: 130px;
+    width: 175px;
+    margin: -60px 19px ;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    max-width: 100%;
+}
+
+#home-style{
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+#guest-style{
+    margin-right: 250px;
+    margin-left: 50px;
+}
+
+#scoring-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+#home-score, #guest-score{
+    text-align: center;
+    font-size: 90px;
+    margin: 0 auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 15px 30px;
+    
+
+}
+
+#guest-score{
+    text-align: center;
+}
+
+.team-control button{
+    width: 50px;
+    height: 50px;
+    background-color: #606C38;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #DDA15E;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px #9AABD8;
+}
+
+.team-control button:hover{
+    background-color: #DDA15E;
+    color: #606C38;
+    border: solid 2px #9AABD8;
+    box-shadow: 4px 8px 6px rgba(0, 0, 0, 0.74);
+}
+
+#reset{
+    background-color: #606C38;
+    color: #DDA15E;
+    border: solid 1px #9AABD8;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+#reset:hover{
+    background-color: #DDA15E;
+    color: #606C38;
+    border: solid 2px #9AABD8;
+    box-shadow: 4px 8px 6px rgba(0, 0, 0, 0.74);
+}
+
+#control-section{
+    background-color: #606c38d0;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: -20px auto;
+    border-radius: 5px;
+    box-shadow: 4px 8px 6px rgba(0, 0, 0, 0.74);
+}
+
+.card:not(:empty):hover,
+.card:not(:empty):focus {
+    z-index: 1;
+    color: #fff;
+    background: #ea124f;
+    opacity: 1;
+    transform: scale(1.15) rotateZ(20deg);
+    cursor: pointer;
+
+}
+
+.card {
+    padding: 10px;
+    background: #fcc99e;
+    border-radius: .7em;
+    opacity: 0.6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: background, transform, color, opacity;
+
+
+}
